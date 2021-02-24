@@ -7,7 +7,7 @@ dependencies:
     - scipy
     - pandas
     - matplotlib
-    - trackpy
+    - trackpy=0.4
     - pims
     - jupyter
     - notebook
