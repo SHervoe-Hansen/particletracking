@@ -3,15 +3,14 @@ channels:
     - conda-forge
     - teokem
 dependencies:
-    - python=3.6.5
-    - numpy=1.13
-    - scipy=1.0
-    - pandas=0.22
-    - matplotlib=2.1
-    - trackpy=0.4
-    - pims=0.4.1
-    - jupyter=1.0
-    - notebook=5.4.1
-    - ffmpeg=3.4.2
-    - mdtraj=1.9
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - trackpy
+    - pims
+    - jupyter
+    - notebook
+    - ffmpeg
+    - mdtraj
     - faunus

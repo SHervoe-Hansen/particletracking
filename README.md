@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mlund/particletracking/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SHervoe-Hansen/particletracking/HEAD)
 
 # Particle Tracking
 
@@ -6,47 +6,21 @@ This lab is based on two [Jupyter Notebooks](http://jupyter.org):
 - `track.ipynb`: Notebook for analysing trajectories from mechanical particle simulator using image analysis;
 - `mc/montecarlo.ipynb`: Notebook for running MC simulations of a model system of the mechanical particle simulator.
 
-## Prerequisites
+## Usage
+To open the Notebooks, we consider two options. 1. The usage of Binder (recommended). 2. Running the Notebook on your local computer.
+### 1. Binder
+To open the Notebooks in Binder, simply click the Binder shield/URL in the top of the document or by clicking [here](https://mybinder.org/v2/gh/TeamOverkill/MD_lab/HEAD).
+### 2. Local computer
+To open the Notebooks, install Python3 via [Miniconda](https://conda.io/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/), and make sure all required packages are loaded using the following terminal commands
+```bash
+	conda env create -f environment.yml
+	source activate particletracking
+	jupyter-notebook
+```
 
-- No prior knowledge in Python is required, but familiarity with programming concepts is helpful.
-- A laptop connected to the internet (eduroam, for example) and running Unix, MacOS, or Windows and with Anaconda installed, see below.
+## Evaluation
+Each student is expected to hand in a written report based on the two labs with the grades passed or not-passed. The written report is to be handed in no later than Tue 23/03 23:59 with the posibility of handing in a first draft no later than Fri 05/03 23:59 and recive comments no later than Fri 12/03. The report may be submitted via Canvas or email to the lab responsibles.
 
-If you have little experience with Python or shell programming, the following two tutorials may be helpful:
 
-- https://swcarpentry.github.io/shell-novice
-- https://swcarpentry.github.io/python-novice-inflammation
-
-## Preparation before the lab
-
-1. Install [miniconda3](https://conda.io/miniconda.html).
-2. [Download](https://github.com/mlund/particletracking/archive/master.zip) the lab material
-   (this github repository) and unzip.
-3. Install and activate the `particletracking` environment described by the file [`environment.yml`](/environment.yml)
-   by running the following in a terminal:
-
-   ```bash
-   conda env create -f environment.yml
-   source activate particletracking
-   ```
-Instructions for Windows: 
-1. Install [miniconda3](https://conda.io/miniconda.html).
-2. [Download](https://github.com/mlund/particletracking/archive/master.zip) the lab material (this github repository)
-   and unzip.
-3. Open the `anaconda prompt` from the start menu.
-4. Navigate to the folder where the course material has been unzipped (_e.g._ using `cd` to change directory
-   and `dir` to list files in a folder).
-5. Install and activate the `particletracking` environment described by the file [`environment.yml`](/environment.yml)
-   by running the following in the `anaconda prompt`:
-
-   ```bash
-   conda env create -f environment.yml
-   activate particletracking
-   ```
-[Further Information](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-
-## How to launch the notebooks
-
-~~~ bash
-jupyter-notebook track.ipynb
-jupyter-notebook mc/montecarlo.ipynb
-~~~
+If you have any questions, you can contact the lab responsibles on the following electronic addresses<br/>
+stefan.hervo_hansen@teokem.lu.se<br/>
