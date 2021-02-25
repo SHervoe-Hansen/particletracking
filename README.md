@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SHervoe-Hansen/particletracking/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SHervoe-Hansen/particletracking/HEAD) [![forthebadge](https://forthebadge.com/images/badges/built-with-science.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
 # Particle Tracking
 
@@ -19,8 +19,8 @@ To open the Notebooks, install Python3 via [Miniconda](https://conda.io/minicond
 ```
 
 ## Evaluation
-Each student is expected to hand in a written report based on the two labs with the grades passed or not-passed. The written report is to be handed in no later than Tue 23/03 23:59 with the posibility of handing in a first draft no later than Fri 05/03 23:59 and recive comments no later than Fri 12/03. The report may be submitted via Canvas or email to the lab responsibles.
+Each student is expected to hand in a written report based on the two labs with the grades passed or not-passed. The written report is to be handed in no later than Tue 23/03 23:59 with the posibility of handing in a first draft no later than Fri 05/03 23:59 and recive comments no later than Fri 12/03. The report may be submitted via Canvas or email to the lab responsible
 
 
-If you have any questions, you can contact the lab responsibles on the following electronic addresses<br/>
+If you have any questions, you can contact the lab responsible on the following electronic addresses<br/>
 stefan.hervo_hansen@teokem.lu.se<br/>
